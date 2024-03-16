@@ -1,0 +1,27 @@
+{
+  "name": "vanilla-typescript",
+  "version": "1.0.0",
+  "description": "JavaScript and TypeScript example starter project",
+  "main": "menu.html",
+  "scripts": {
+    "start": "parcel menu.html",
+    "build": "parcel build menu.html"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "leaflet": "^1.9.4",
+    "leaflet-providers": "^2.0.0",
+    "leaflet.markercluster": "^1.5.3",
+    "parcel-bundler": "1.6.1"
+  },
+  "devDependencies": {
+    "typescript": "4.4.4"
+  },
+  "resolutions": {
+    "@babel/preset-env": "7.13.8"
+  },
+  "keywords": [
+    "typescript",
+    "javascript"
+  ]
+}
